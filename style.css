@@ -42,3 +42,26 @@ ul{
     list-style: none;
     text-align: center;
 }
+    
+
+.cabecalho{
+    display: flex;
+}
+.cabecalho_lista{
+        display: inline;
+    }
+
+    a:link{
+        color: rgb(101, 207, 233);
+        text-decoration: none;
+    }
+/* visited link*/
+a:visited{
+    color: green;
+}
+/*mouse over link */
+a:hover{
+    color: rgb(191, 218, 233);
+    text-decoration: underline;
+    /*background-color: rgb(202, 231, 242);*/
+}
